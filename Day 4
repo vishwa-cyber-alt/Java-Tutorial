@@ -1,0 +1,15 @@
+import java.util.HashSet;
+import java.util.Iterator;
+public class Main {
+    public static void main(String[] args) {
+        HashSet<Integer> a=new HashSet<>();
+        a.add(12);
+        a.add(43);
+        a.add(4);
+        a.add(98);
+        Iterator<Integer> iterate=a.iterator();
+        while(iterate.hasNext()){
+System.out.println(iterate.next());
+        }
+    }
+}

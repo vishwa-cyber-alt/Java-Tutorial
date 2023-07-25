@@ -1,0 +1,9 @@
+public class Main {
+  public static void main(String[] args) {
+      String a="one";
+      String b="two";
+      String c="";
+      System.out.println(a.isEmpty());
+      System.out.println(b.isEmpty());
+      System.out.println(c.isEmpty());
+  }}

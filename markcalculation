@@ -1,0 +1,13 @@
+class Markcalculation {
+    public static void main(String[] args) {
+    int m1=90;
+    int m2=65;
+    int m3=90;
+    int m4=87;
+    int m5=99;
+    int a=m1+m2+m3+m4+m5;
+    int b=m1+m2+m3+m4+m5/5;
+    System.out.print("total="+a);
+     System.out.print("Average="+b);
+}
+}

@@ -1,0 +1,13 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        String have="phone";
+        if(have=="phone")
+        {
+            System.out.print("no need to buy laptop");
+        }
+        else
+        {
+            System.out.print("buy phone");
+        }
+    }
+}

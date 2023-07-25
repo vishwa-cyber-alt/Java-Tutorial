@@ -1,0 +1,10 @@
+//Written by Vishwa V
+public class ULcase
+{
+public static void main(String args[])
+{
+String str="vishwav";
+System.out.println("uppercase="+str.toUpperCase());
+System.out.println("lowercase="+str.toLowerCase());
+}
+}

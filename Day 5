@@ -1,0 +1,12 @@
+class HelloWorld {
+    public static void main(String[] args) {
+     int age=19;
+     if(age<18)
+     {
+         System.out.print("not eligible to vote");
+     }
+     else{
+         System.out.print("eligible to vote");
+     }
+    }
+}

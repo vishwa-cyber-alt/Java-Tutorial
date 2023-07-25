@@ -1,0 +1,18 @@
+//User Defined Function
+public class Main {
+    static void check(String a)
+    {
+       String lc=a.toLowerCase();
+        if(a==lc)
+        {
+        System.out.println(a.toUpperCase());
+        }
+        else{
+            System.out.println(a+"already in upper case");
+        }
+    }
+        public static void main(String args[])
+        {
+            check("vishwa");
+            check("EARTH");
+        }}

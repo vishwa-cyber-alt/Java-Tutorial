@@ -1,0 +1,13 @@
+public class StringPosition
+{
+     public static void main (String args[])
+      {
+        String str="vishwa";
+        System.out.println("0st position="+str.charAt(0));
+        System.out.println("1st position="+str.charAt(1));
+        System.out.println("2nd position="+str.charAt(2));
+        System.out.println("3rd position="+str.charAt(3));
+      }
+}
+
+     

@@ -1,0 +1,14 @@
+import java.util.*;
+ 
+public class Vector {
+    public static void main(String args[])
+    {
+Vector<String> v=new Vector<String>();
+v.add("hi");
+v.add("welcome");
+System.out.print(v);
+v.add("listend");
+System.out.print(v);
+
+}
+}

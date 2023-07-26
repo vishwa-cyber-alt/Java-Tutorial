@@ -1,0 +1,12 @@
+class Contains
+{  
+public static void main(String args[]){
+String a="Hi im vishwa";
+if(a.contains("vishwa"))
+{
+System.out.println("exists");
+}
+else{
+System.out.println("not exists");
+}
+}}

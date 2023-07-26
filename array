@@ -1,0 +1,26 @@
+public class Search
+{
+     public static void
+     main (String args[])
+     {
+          boolean f = false;
+          int a[] = { 1, 2, 43, 34, 5, 51 };
+          int b = 57;
+          for (int i = 0; i < a.length; i++)
+               {
+                    if (b == a[i])
+                         {
+                              f = true;
+                              break;
+                         }
+               }
+          if (f)
+               {
+                    System.out.print ("yes");
+               }
+          else
+               {
+                    System.out.print ("no");
+               }
+     }
+}

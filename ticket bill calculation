@@ -1,0 +1,17 @@
+import java.util.*;  
+class BusTicketCalculation  
+{  
+  public static void main(String[] args)  
+  {  
+    Scanner sc= new Scanner(System.in);    //System.in is a standard input stream  
+    System.out.print("how many childs:");
+    int a= sc.nextInt();  
+    System.out.print("how many adults:");
+    int b= sc.nextInt();  
+  
+    int child=a*40;
+    int mw=b*80;
+    int d=child+mw;
+    System.out.println("Bill cost= " +d);  
+  }  
+}

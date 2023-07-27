@@ -1,0 +1,12 @@
+class Function
+{
+    static void print(String name)
+    {
+        System.out.println("welcome "+name);
+    }
+    public static void main(String args[])
+    {
+        print("vishwa");
+        print("john");
+    }
+}

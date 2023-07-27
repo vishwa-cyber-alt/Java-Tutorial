@@ -1,0 +1,9 @@
+class Login
+{
+public static void main(String args[])
+{
+String a="open";
+String b="open";
+System.out.print(a.equals(b));
+}
+}

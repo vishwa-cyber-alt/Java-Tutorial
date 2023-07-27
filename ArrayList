@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+public class July272023
+{
+    public static void main(String[] args)
+{
+        ArrayList<Integer> a=new ArrayList<Integer>();
+        a.add(11);
+        a.add(12);
+        a.add(13);
+        System.out.println(a);
+        System.out.println(a.size());
+        a.set(1,55);
+        for(Integer i:a){System.out.println(i);}
+    }
+}

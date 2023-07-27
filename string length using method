@@ -1,0 +1,15 @@
+class Function
+{
+    static void print(String name)
+    {
+       
+        System.out.println(name+"="+name.length());
+    }
+    public static void main(String args[])
+    {
+        print("vishwa");
+        print("john");
+        print("ram");
+        print("prakash");
+    }
+}

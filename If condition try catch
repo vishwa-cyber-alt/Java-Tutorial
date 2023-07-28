@@ -1,0 +1,15 @@
+class Vishwa {
+    public static void main(String[] args) {
+        //int n=89;
+        try {
+            int n = 88;
+            if (n < 12) {
+                System.out.print("ye");
+            } else {
+                throw new Exception(); // Simulate an exception when n > 12
+            }
+        } catch (Exception e) {
+            System.out.print("no");
+        }
+    }
+}
